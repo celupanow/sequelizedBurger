@@ -1,4 +1,3 @@
-
 //when the devour button is clicked, the devour status is changed
 $(function() {
     $(".change-devoured").on("click", function(event) {
@@ -55,4 +54,4 @@ $(function() {
     });
   
   });
-
+  

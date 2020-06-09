@@ -9,8 +9,8 @@
         {{#each burgers}}
         {{#unless devoured}}
         <li>
-         {{this.burger_name}}
-          <button class="change-devoured btn btn-primary float" data-id="{{this.id}}" data-newDevour="{{devoured}}">
+         {{burger_name}}
+          <button class="change-devoured btn btn-primary float" data-id="{{id}}" data-newDevour="{{devoured}}">
             DEVOUR
           </button>
         </li>
@@ -49,8 +49,8 @@
         {{#each burgers}}
         {{#if devoured}}
         <li class="eaten">
-        {{this.burger_name}}
-          <button class="delete-burger btn btn-primary float" data-id="{{this.id}}">
+        {{burger_name}}
+          <button class="delete-burger btn btn-primary float" data-id="{{id}}">
             DELETE
           </button>
         </li>

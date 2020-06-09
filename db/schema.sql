@@ -11,4 +11,3 @@ devoured BOOLEAN
 );
 
 SELECT * FROM burgers;
-
