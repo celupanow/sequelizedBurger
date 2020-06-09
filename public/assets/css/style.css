@@ -1,0 +1,89 @@
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+  .jumbotron {
+    background-color: rgba(175, 215, 183, 0.89);
+    color: rgb(94, 8, 121);
+    height: 50px;
+    padding-top: 20px;
+  }
+
+  body {
+    background: url(../img/pixel-art-cheeseburger-seamless-background.jpg);
+  }
+  
+  .main-container {
+    background-color: rgba(255, 255, 255, 0.89);
+    border-radius: 30px;
+    padding: 40px;
+  }
+
+  .btn {
+    background-color: rgb(94,8,121);
+    border-color: rgb(192, 32, 241);
+    color: white;
+  }
+
+  .float {
+    float: right;
+  }
+
+  h2 {
+    text-align: center;
+    color: rgb(94,8,121);
+  }
+
+  .create-form {
+    color: rgb(94,8,121);
+  }
+
+  .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: white;
+    background-color: rgb(94,8,121);
+    border-color: rgb(192, 32, 241);
+  }
+
+  img {
+    margin-top: 20px;
+    border-radius: 30px;
+  }
+
+li {
+    padding: 5px;
+    margin: 5px;
+    background: rgb(163,210,174);
+    color: rgb(94,8,121);
+    font-weight: bold;
+    height: 50px;
+  }
+
+  .eaten {
+    color: grey;
+  }
+  
+  .label {
+    font-weight: bold;
+  }
+  
+  .create-update-form {
+    padding: 5px;
+    margin: 5px;
+    background: aqua;
+  }
+  
+  .form-group {
+    margin-bottom: 5px;
+  }
+
+/*style for the footer, including border, and sticky*/
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: rgba(175, 215, 183, 0.89);
+  text-align: center;
+  margin-top: 20px;
+}
