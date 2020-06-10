@@ -1,6 +1,6 @@
 var express = require("express");
 var Handlebars = require("handlebars");
-var expressHandlebars = require("express-handlebars");
+var exphbs = require("express-handlebars");
 var {allowInsecurePrototypeAccess} = require("@handlebars/allow-prototype-access");
 
 var app = express();
@@ -16,7 +16,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 // Set Handlebars.
-var exphbs = require("express-handlebars");
+// var exphbs = require("express-handlebars");
 
 app.engine("handlebars", exphbs({ 
   defaultLayout: "main",
