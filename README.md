@@ -34,8 +34,7 @@ This application uses Sequelize and MySQL to keep track of burgers that have bee
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
-To watch the demonstration video, please click the following link:
-[https://drive.google.com/file/d/1KAnbUqia4wWURy0AiWkc-LvggEZjpoud/view](https://drive.google.com/file/d/1KAnbUqia4wWURy0AiWkc-LvggEZjpoud/view)
+![Eat-Da-Burger](./public/images/newscraper-pacific-journey.png "News Scraper")
 
 ### Built With
 * [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
@@ -163,5 +162,5 @@ Uses MySQL database to keep track of the burgers and their devoured status. When
  - Sequelize
  - MVC
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0MDIwNDUxNCwxMjAzNDk4NzI4XX0=
+eyJoaXN0b3J5IjpbOTE2NjQ3NTI3LDEyMDM0OTg3MjhdfQ==
 -->
