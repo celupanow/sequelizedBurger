@@ -1,3 +1,9 @@
+
+
+
+
+
+
 # sequelizeBurger
 Displays a list of burgers that have been eaten and burgers that have not been eaten. Burgers that have not been eaten can be devoured. The user can also add a burger to either list. Burgers that have been eaten can be deleted.
 
@@ -25,3 +31,6 @@ Uses MySQL database to keep track of the burgers and their devoured status. When
  - Express
  - Sequelize
  - MVC
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTIwMzQ5ODcyOF19
+-->
