@@ -93,12 +93,12 @@ See the [open issues](https://github.com/celupanow/sequelizedBurger/issues) for 
 ## Contact
 Christina Lupanow - christina@christinalupanow.com
 <p>
-Project Link: [https://celupanow.github.io/sequelizedBurger/](https://celupanow.github.io/sequelizedBurger/)
+Project Link: [https://still-citadel-06884.herokuapp.com/](https://still-citadel-06884.herokuapp.com/)
 
 <!-- ACKNOWLEDGEMENTS -->
 
 ## Acknowledgements
-* [GitHub Pages](https://pages.github.com)
+* [Heroku](https://heroku.com)
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
@@ -131,38 +131,6 @@ Project Link: [https://celupanow.github.io/sequelizedBurger/](https://celupanow.
 
 [product-screenshot]: images/screenshot.png
 
-
-
-
-
-
-# sequelizeBurger
-Displays a list of burgers that have been eaten and burgers that have not been eaten. Burgers that have not been eaten can be devoured. The user can also add a burger to either list. Burgers that have been eaten can be deleted.
-
-Working Link
-[Deployed on Heroku](https://still-citadel-06884.herokuapp.com/)
-
-## Objectives
-
- - Display a list of burgers that have not been eaten.
- - Include a button for those burgers to be devoured.
- - Display a list of burgers that have been eaten.
- - Include a button for those burgers to be deleted.
- - Have a form where a user can add a new burger to either list.
- 
-## How It Works
-Uses MySQL database to keep track of the burgers and their devoured status. When the page loads, it lists them on the appropriate side, including the buttons for users to devour or delete. It has a form where the user can input their own burger, which is put into the SQL database.
-
-## Technologies
-
- - HTML
- - CSS
- - Handlebars
- - MySQL
- - Node.js
- - Express
- - Sequelize
- - MVC
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4MTE4MzQ3NywxMjAzNDk4NzI4XX0=
+eyJoaXN0b3J5IjpbMTkxNDg0NDI2NSwxMjAzNDk4NzI4XX0=
 -->
