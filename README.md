@@ -43,7 +43,7 @@ This application uses Sequelize and MySQL to keep track of burgers that have bee
 * [Node.js](https://nodejs.org)
 * [MySQL](https://www.mysql.com/)
 * [Express](https://expressjs.com/)
-* [Sequelize]
+* [Sequelize](https://sequelize.org/)
 
 <!-- GETTING STARTED -->
 
@@ -58,7 +58,7 @@ You will need to have the lastest version of npm installed.
 ```sh
 npm install npm@latest -g
 ```
-You will also need MySQL installed. There is a schema file included with the basic sample data you see in the demo video. If you are using MySQL Workbench, you should be able to run this script and create the database.
+You will also need MySQL installed. There is a schema file and a seeds file included with the basic sample data you see in the working demo. If you are using MySQL Workbench, you should be able to run this script and create the database.
   
 ### Installation
 
@@ -73,13 +73,12 @@ git clone https://github.com/celupanow/sequelizedBurger.git
 ```sh
 npm install
 ```
-3. Run the MySQL schema to create the database
+3. Run the MySQL schema and seeds to create the database
 4. Run the application using the command line
 ```sh
-node bamazonCustomer.js
-node bamazonManager.js
-node bamazonSupervisor.js
+node server.js
 ```
+5. Go to localhost:8080 in your browser
 
 <!-- ROADMAP -->
 
@@ -165,5 +164,5 @@ Uses MySQL database to keep track of the burgers and their devoured status. When
  - Sequelize
  - MVC
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTI0NjYyMjksMTIwMzQ5ODcyOF19
+eyJoaXN0b3J5IjpbLTU4MTE4MzQ3NywxMjAzNDk4NzI4XX0=
 -->
