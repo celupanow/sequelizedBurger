@@ -1,23 +1,17 @@
-//when the devour button is clicked, the devour status is changed
 $(function() {
+  
+  //when the devour button is clicked, the devour status is changed
     $(".change-devoured").on("click", function(event) {
+      event.preventDefault();
+
       var id = $(this).data("id");
-      var newDevour = $(this).data("newdevour");
-  
-      var newDevourState = {
-        devoured: newDevour
-      };
-  
-      //changing the devour state
-      $.ajax("/api/burgers/" + id, {
+
+      $.ajax({
         type: "PUT",
-        data: newDevourState
-      }).then(
-        function() {
-          console.log("changed devour to", newDevour);
-          location.reload();
-        }
-      );
+        url: "/api/burgers/" + id
+      }).then(function(data) {
+        location.reload();
+      });
     });
   
     //adding a new burger

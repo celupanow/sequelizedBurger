@@ -26,10 +26,10 @@ module.exports = function(app) {
   app.put("/api/burgers/:id", function(req,res) {
 
     db.burger.update({
-      devoured: req.body.devoured
+      devoured: true
     }, {
       where: {
-        id: req.body.id
+        id: req.params.id
       }
     }).then(function(dbburger) {
       if (dbburger.changedRows == 0) {
