@@ -5,7 +5,7 @@
  
 <h3 align="center">Eat-Da-Burger: Sequelized</h3>
 <p align="center">
-This application uses Sequelize and MySQL
+This application uses Sequelize and MySQL to keep track of burgers that have been eaten.
 <br />
 <br />
 <a href=" https://drive.google.com/file/d/1KAnbUqia4wWURy0AiWkc-LvggEZjpoud/view">View Demo</a>
@@ -163,5 +163,5 @@ Uses MySQL database to keep track of the burgers and their devoured status. When
  - Sequelize
  - MVC
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0OTcwMTgxNiwxMjAzNDk4NzI4XX0=
+eyJoaXN0b3J5IjpbMTY0MDIwNDUxNCwxMjAzNDk4NzI4XX0=
 -->
