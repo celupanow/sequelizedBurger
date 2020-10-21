@@ -8,7 +8,7 @@
 This application uses Sequelize and MySQL to keep track of burgers that have been eaten.
 <br />
 <br />
-<a href=" https://drive.google.com/file/d/1KAnbUqia4wWURy0AiWkc-LvggEZjpoud/view">View Demo</a>
+<a href="https://still-citadel-06884.herokuapp.com/">View Demo</a>
 ·
 <a href="https://github.com/celupanow/sequelizedBurger/issues">Report Bug</a>
 ·
@@ -132,5 +132,6 @@ Project Link: [https://still-citadel-06884.herokuapp.com/](https://still-citadel
 [product-screenshot]: images/screenshot.png
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxNDg0NDI2NSwxMjAzNDk4NzI4XX0=
+eyJoaXN0b3J5IjpbLTk5NjYyOTM1NywxOTE0ODQ0MjY1LDEyMD
+M0OTg3MjhdfQ==
 -->
