@@ -127,11 +127,11 @@ Project Link: [https://still-citadel-06884.herokuapp.com/](https://still-citadel
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 
-[linkedin-url]: https://linkedin.com/in/celupanow
+[linkedin-url]: https://www.linkedin.com/in/christinalupanow
 
 [product-screenshot]: images/screenshot.png
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5NjYyOTM1NywxOTE0ODQ0MjY1LDEyMD
-M0OTg3MjhdfQ==
+eyJoaXN0b3J5IjpbLTQ1OTg5Nzk3MywtOTk2NjI5MzU3LDE5MT
+Q4NDQyNjUsMTIwMzQ5ODcyOF19
 -->
